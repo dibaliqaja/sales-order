@@ -8,13 +8,13 @@
         </div>
         <ul class="sidebar-menu">
             <li>
-                <a class="nav-link" href="#"><i class="fas fa-fire"></i>
-                    <span>Product</span>
+                <a class="nav-link" href="{{ route('products.index') }}"><i class="fas fa-fire"></i>
+                    <span>Products</span>
                 </a>
             </li>
             <li>
-                <a class="nav-link" href="#"><i class="fas fa-user"></i>
-                    <span>Sales</span>
+                <a class="nav-link" href="{{ route('customers.index') }}"><i class="fas fa-user"></i>
+                    <span>Customers</span>
                 </a>
             </li>
             <li>
